@@ -1,0 +1,81 @@
+/* AuthForm.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f2f4f7;
+}
+
+.login-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0053cc;
+}
+
+.signup-link {
+  margin: 10px 0;
+}
+
+.alt-button {
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.alt-button:hover {
+  opacity: 0.85;
+}
+
+.alt-button.user {
+  color: #00bfff;
+  border-color: #00bfff;
+}
+
+.alt-button.seller {
+  color: #008000;
+  border-color: #008000;
+}
+
+.alt-button.admin {
+  color: #000;
+  border-color: #000;
+}
+
+hr {
+  margin: 20px 0;
+}
